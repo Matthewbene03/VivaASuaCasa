@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 600px;
+}
+
+.headerTexto{
+    flex: 50%;
+    margin-left: 10%;
+    color: black;
+    padding-top: 50px;
+}
+
+.headerTexto h2, h3, a{
+    color: black;
+}
+
+.headerTexto h2{
+    font-family: "Bebas Neue", system-ui;
+    font-size: 100px;
+    padding: 15px;
+    text-align: left;
+    color: #9c693c;
+    line-height: 100px;
+}
+
+.headerTexto h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.headerTexto p{
+    color: gray;
+    margin-bottom: 130px;
+    margin-right: 10%;
+}
+
+.headerImg{
+    flex: 30%;
+    height: 100%;
+    text-align: right;
+    border: 5px solid #9c693c;
+    border-radius: 5px;
+}
+
+.headerImg img{
+    width: 100%;
+    height: 100%;
+}
+
+#btn_SaibaMais{
+    background-color: #9c693c;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+#btn_SaibaMais:hover{
+    background-color: #cec18d;
+    text-decoration: underline;
+    color: #9c693c;
+}

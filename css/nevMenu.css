@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+}
+
+.logo{
+    flex: 30%;
+    margin-left: 10%;
+}
+
+.logo h1{
+    display: inline-block;
+    font-family: "Bebas Neue", system-ui;
+    font-size: 50px;
+    padding: 15px;
+    color: #9c693c;
+}
+
+.logo img{
+    float: right;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.opcoes{
+    flex:50%;
+    margin-right: 10%;
+    text-align: right;
+    padding: 20px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #9c693c;
+}
+
+.opcoes a:hover{
+    border-top: 3px solid #cec18d;
+}
+
+#faleConosco{
+    margin-right: 80px;
+    margin-left: 50px;
+    color: white;
+    background-color: #9c693c;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+#faleConosco:hover{
+    background-color: #cec18d;
+    color: #9c693c;
+    border: none;
+}

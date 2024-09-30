@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+.sobreMim{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 5px double #9c693c;
+    border-bottom: 5px double #9c693c;
+}
+
+.sobreMimImg h2{
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.sobreMimImg{
+    flex: 60%;
+}
+
+.sobreMimImg img{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+    border: 5px solid #9c693c;
+}
+
+.sobreMimTexto{
+    flex:40%;
+    text-align: center;
+}
+
+.sobreMimTexto p{
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+    padding: 100px;
+}
+
+
+
+#btn_Msg{
+    background-color: #9c693c;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#btn_Msg:hover{
+    background-color: #cec18d;
+    color: #9c693c;
+}
